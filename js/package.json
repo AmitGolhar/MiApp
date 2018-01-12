@@ -1,0 +1,24 @@
+{
+  "name": "Qarticles",
+  "version": "0.3.4",
+  "description": "A lightweight and high performance JavaScript library for creating particles",
+  "main": "qarticles.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hilongjw/Qarticles.git"
+  },
+  "keywords": [
+    "particles",
+    "particle",
+    "canvas"
+  ],
+  "author": "Awe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hilongjw/Qarticles/issues"
+  },
+  "homepage": "https://github.com/hilongjw/Qarticles#readme"
+}

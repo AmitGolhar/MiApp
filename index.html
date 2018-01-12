@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MiApp</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/hover.css">
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="all">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="fullPage.js-master/jquery.fullPage.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<link rel="stylesheet" href="fullPage.js-master/jquery.fullPage.css"/>
+
+<script>
+
+$(document).ready(function() {
+	//$('#fullpage').fullpage();
+	
+	$('#fullpage').fullpage1({
+				anchors: ['Home', 'Features', 'How it works', 'App Screenss', 'Pricing', 'Clients', 'Contact'],
+				navigation: true,
+				scrollingSpeed: 1500,
+				navigationPosition: 'right',
+				navigationTooltips: ['Home', 'Features', 'How it works', 'App Screenss', 'Pricing', 'Clients', 'Contact']
+			});
+	
+});
+
+$(document).ready(function() {
+  $('.panel-collapse').on('show.bs.collapse', function () {
+    $(this).siblings('.panel-heading').addClass('active');
+  });
+
+  $('.panel-collapse').on('hide.bs.collapse', function () {
+    $(this).siblings('.panel-heading').removeClass('active');
+  });
+});
+
+
+
+</script>
+</head>
+
+<body  >
+<div id="fullpage"> 
+<!-- First Container Home -->
+<div class="container-fluid bg-1 section" id="bg-1">
+  <canvas id="cov" > </canvas>
+  <div class="container "> 
+    <!-- Navbar -->
+    
+    <nav class="navbar navbar-default">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"> </span> </button>
+        <a class="navbar-brand" href="#">
+        <h1 class="logo">MIAPP</h1>
+        </a> </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#bg-1">Home</a></li>
+          <li><a href="#bg-2">Features</a></li>
+          <li><a href="#bg-3">How it works</a></li>
+          <li><a href="#bg-4">App Screens</a></li>
+          <li><a href="#bg-5">Pricing</a></li>
+          <li><a href="#bg-6">Clients</a></li>
+          <li><a href="#bg-7">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row appintro">
+      <div  class="col-sm-8 instroducingapp ">
+        <h1>Introducing Learning App</h1>
+        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="appstore "> 
+                <img src="images/Apple_appstore.png" >
+                <img src="images/Google_appstore.png" > 
+            </div>
+      </div>
+      <div class="col-sm-4"  align="center"> 
+      <img id="nav_mobileimg" class="img-responsive" src="images/mobile.png" alt="mobile">
+       </div>
+    </div>
+        <!--
+        <div class="mediaicon" > 
+        <a href="#"> <img class="img-responsive icon1"  src="images/media1.png"></a><br>
+         <a href="#"><img class="img-responsive icon2"  src="images/media2.png"> </a> 
+        </div>
+        -->
+  </div>
+</div>
+<!-- Second Container Feature -->
+<div class="container-fluid bg-2 section " id="bg-2">
+  <div class="container ">
+    <div class="row " >
+      <div class="col-md-6 " >
+        <div align="left"> 
+        <img class ="img-responsive Featuresimg1 " src="images/feature_img01.png"  alt="image1"  >
+         <img  class ="img-responsive Featuresimg2" src="images/feature_img02.png"  alt="image2"  > 
+         </div>
+      </div>
+      <div class="col-md-6 " >
+        <h2 align="left" class="sectionheading">Features</h2>
+        <p style="margin-top:20px; margin-bottom:20px; text-align:left;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 		eiusmod tempor incididunt.</p>
+        <div class="Features_right_section">
+          <div class="Functional"> 
+            
+            <!-- hand icon svg code--> 
+            <i>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="39" height="60" viewBox="0 0 39 60">
+              <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAA8CAMAAADSbFNfAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABXFBMVEUAAAD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQAAAABYeH44AAAAcnRSTlMAgPTxelTdsOBLmCEujKAQIJA4NNBaCRJR8AGdQ1CtVdUOtjL27SLi+0CmFkZBGaWn+rKs7sLS684adE5hYiecvBcxXoW/BNQwcP383GfZJWQqcv6o6C3pXSSLuhP3aTXHVnjRwLTv+LNPHFjL9fLNRApXs0WvAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAWRJREFUSMft1mk3AlEYB/BniqZQmqQ0FCXKMpOkQkih7EJkyVr2/fn+LwylGcxyXziHg/+bu/3OzL1n7rl3AIRQOqxFXwdKqUcDXYsRTUquARvFRhOalZwFm8WGFZk/4mwtZM5o/6GulXGIzsm0gXoqTjvf7Uwu+R3Ntne8c250yzoKPSSuE7u8Cs7nE1m3v6cXFJxdsrJAsA9IHPYDmbMQuAErmaPx332ZG+QqJe/mqz0cJ+dU8ptciMANIYSHCVwEYSRK4KJ6iAUIXHwUQujVZGPCYscxoekmcBKmMKnppoMpgJjOqcHSrwfVDM6qM3YO00KRyQbnVd1CdWa2RSOvwhJLy9VrcgVX1xRZLhxff6tvbLpyrKzi87i1LXl2AbM7jk9qd8+P+ylpT5E5QH3k8Ej8NkWOOkY0nHx8T+q09PI75IqVffRZuXQu1C8urzJyk7m+MXtuC3eCuC885KnHJ8nYM4fYY2vmOuIjAAAAAElFTkSuQmCC" width="39" height="60"/>
+            </svg>
+            </i>
+            <h4 style="padding-top:10px; padding-bottom:10px; font-weight: 900;">Functional</h4>
+            <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod.</p>
+          </div>
+          <div class="More_faster">
+           
+            <i>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="48" height="60" viewBox="0 0 48 60">
+              <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAA8CAMAAAAXHsnOAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB71BMVEUAAAB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJAAAACGcCDfAAAAo3RSTlMAIsALDNSrAa6ye35//k1Orw3W8igq8yTv2hAR3O4jR/22A7lEdYiLcqZYWqMJzfYxM/fLCB7p4RUX4+gcPfrBBcM6aJUghbfwcKA4doRhFhi79Qr4cxO6d1G8zM87XqJ60cY0Y4M/rKEn1YwEU5OeKfkGqg++0Gcl3lI16/E+9OQtXNjHFI61n+WcsNKlbL0byJBQDuLfnVTZ5jL8Ve0wuGsCDK7fdAAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAJTSURBVEjH3ZbpWxJRFIdPIiDYtFlULjENpma0SBKbkJZlahSB2b7QvtAiKm6YC+5pm+17nX80ZthGGGbOfO18ufd35n0fDgzP3AGQrnUlGlBTpVrU6VXw+jI0oFGFUI7r9QZmA5nfiJv0sHlLxVYiv82kLU0u23fsrCTxVdU1u4SNmd3NEXjOwtamt3uwjiDUY0N2vxcbFfl9aM2F/QcOHlLgm2yHm0XRfsThlOVdbk/LmobXd7RVhm9t8x3Lax3HdhnhBJ4s6HWckhU6C3pdJKH7tP/MWboQOIfIYLCTKoS0Ped7oelCyiYIF/ESH7jLQSdNuHI1la7hdZrguZFKlXiTJoRvpdJtvEMT7uI9Id33tdCEKkdNIweuB+in3oeHj9DkZpjHHFWAyJOnz8qfp3q0v4aoVAsGGYHrkhCq+4o+OqL9KCVgf1SaHxhEaQEHB6T4QIwdqpASmCE2Fijkh0dsoyAtwKhtZDi/PRYf90IxAV6Mx8fWds0Tk1NQXICpyQmzuDntS9hBTgB7wjed6zXgzCzICzA7k33m6udwPgRKAoTmcU449qJWXIiAsgCRBbQmb6HGghiOpYvFRX5ZSiNtfOjDzNUwokUDxpei6lgWFn9aWOHDsltMqDla/996VZJXr9/IC70efCvCHfhO6SNWsT4X3n/4GFIcaoXtzu7bsVaRTw6VyJzUXuYT5Xt/zgzV/OUr7XVGlx6qDldpP60zLgz17buOxgP84IeKxH66qIIwlFE44YiVHOpXz286zw8VNNnVCKDDP6p4cJb9lb7wD3vrug2la0ClAAAAAElFTkSuQmCC" width="48" height="60"/>
+            </svg>
+            </i>
+            <h4 style="padding-top:10px; padding-bottom:10px; font-weight: 900;">More faster</h4>
+            <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod.</p>
+          </div>
+          <div class="Flexible"> <i>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="57" height="60" viewBox="0 0 57 60">
+              <image xlink:href="data:img/png;base64,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" width="57" height="60"/>
+            </svg>
+            </i>
+            <h4 style="padding-top:10px; padding-bottom:10px; font-weight: 900;">Flexible 1</h4>
+            <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod.</p>
+          </div>
+          <div class="Different_style"> <i>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="47" height="60" viewBox="0 0 47 60">
+              <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAA8CAMAAADBuxOrAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAnFBMVEUAAAD9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRMAAACl4v4QAAAAMnRSTlMARd/EHhHz9LKwu8JGc7RQYKAc/EAg2EG9wCwW9vIQtgYwgAUodQ/v9wuEwT/U4JrQj6nfbq8AAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAA0klEQVRIx+3WRw6DMBBAUROq6SUFUiC917n/4QIYIksZS+xQIv+dR28xIAtByHfKANrY4HNUNYTrhmnRJjZpTzY4iHfBI4J8QIYBhCIfSd+3j+2kvR1Dzo8AxhPMp5C112PK+Rn154sc8VCI9vHAxXwk8iEE0ksvvfS/4pdh3aqrz9mHeN3Vb4K6ba/P68JO5AvM7w9Hn9IT82fKdYEU8eR6K99JznwGXIkdY74J2afsj7x6r3p09sWz6tXz/r7II/8DZQ7YFM0yDR3xmgqCBgrC37UqS5pUv2mOAAAAAElFTkSuQmCC" width="47" height="60"/>
+            </svg>
+            </i>
+            <h4 style="padding-top:10px; padding-bottom:10px; font-weight: 900;">Different style</h4>
+            <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod.</p>
+          </div>
+          <br>
+          <br>
+          &nbsp; &nbsp;
+          <button type="button" class="btn btn-default hvr-sweep-to-right knowmore">Know more</button>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Third Container (Grid) Accordian Showcase -->
+<div class="container-fluid bg-3 section " id="bg-3">
+  <canvas id="cov2" > </canvas>
+  <div class="container" >
+    <h1 align="center" class="sectionheading" >Accordian Showcase</h1>
+    <br>
+    <p align="center" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <br>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class=" demo">
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default " >
+              <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne "> <i class="more-less glyphicon glyphicon-plus"></i> iOS Development Benefits </a> </h4>
+              </div>
+              <div id="collapseOne" class="panel-collapse collapse accordion-body collapse in" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body ">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs cond mentum leo massa mollis estiegittis miristum nulla. Ut cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs cond mentum leo massa mollis estiegittis miristum nulla.</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> <i class="more-less glyphicon glyphicon-plus"></i> Free Demo Content Installations </a> </h4>
+              </div>
+              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> <i class="more-less glyphicon glyphicon-plus"></i> Visual Page Builder </a> </h4>
+              </div>
+              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- panel-group --> 
+          
+        </div>
+      </div>
+      <div class="col-sm-6 animated bounceInRight" align="center"> <img  src="images/iphone.png" class="img-responsive margin" alt="Image"> </div>
+    </div>
+  </div>
+</div>
+<!-- Fourth Container (Grid) Tabbed Showcase-->
+<div class="container-fluid bg-4 section" id="bg-4">
+  <div class="container" >
+    <h1 align="center" class="sectionheading" >Tabbed Showcase </h1>
+    <br>
+    <p align="center" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <br>
+    <div class="row">
+      <div class="col-sm-6"> <img  src="images/iphone_2.png" class="img-responsive animated bounceInLeft " alt="Image"> </div>
+      <div class="col-md-6">
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#home"><i class="fa fa-music"></i>Ratina Ready</a></li>
+          <li><a data-toggle="tab" href="#menu1"><i class="fa fa-star" ></i>Support</a></li>
+          <li><a data-toggle="tab" href="#menu2"><i class="fa fa-lightbulb-o" ></i>Web Design</a></li>
+          <li><a data-toggle="tab" href="#menu3"><i class="fa fa-bell" ></i>Branding</a></li>
+        </ul>
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+            <p><span class=" glyphicon glyphicon-chevron-right"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p><span class=" glyphicon glyphicon-chevron-right"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+          </div>
+          <div id="menu1" class="tab-pane fade">
+            <p><span class=" glyphicon glyphicon-chevron-right"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p><span class=" glyphicon glyphicon-chevron-right"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor .</p>
+          </div>
+          <div id="menu2" class="tab-pane fade">
+            <p><span class=" glyphicon glyphicon-chevron-right"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p><span class=" glyphicon glyphicon-chevron-right"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </p>
+          </div>
+          <div id="menu3" class="tab-pane fade">
+            <p><span class=" glyphicon glyphicon-chevron-right"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p><span class=" glyphicon glyphicon-chevron-right"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fifth Container (Grid)App Screens -->
+<div class="container-fluid bg-5 section" id="bg-5">
+  <h1 align="center" class="sectionheading" >App Screens </h1>
+  <br>
+  <p align="center" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <br>
+  
+  <!-- Flickity HTML init -->
+  
+  <div class="gallery js-flickity mobilefixscreen" data-flickity='{ "initialIndex": 2 }'>
+    <div class="gallery-cell"> <img src="images/Screen1.png"> </div>
+    <div class="gallery-cell"> <img src="images/Screen2.png"> </div>
+    <div class="gallery-cell"> <img src="images/Screen3.png"> </div>
+    <div class="gallery-cell"> <img src="images/Screen4.png"> </div>
+    <div class="gallery-cell"> <img src="images/Screen5.png"> </div>
+    <div class="gallery-cell"> <img src="images/Screen1.png"> </div>
+    <div class="gallery-cell"> <img src="images/Screen2.png"> </div>
+    <div class="gallery-cell"> <img src="images/Screen3.png"> </div>
+    <div class="gallery-cell"> <img src="images/Screen4.png"> </div>
+  </div>
+  
+  <!-- gallery js-flickity end  -->
+  <div align="center" style="margin-top: 50px;">
+    <button type="button" class="btn btn-default btn-lg  hvr-sweep-to-right knowmore" style="padding-right: 40px; padding-left: 40px;">Download</button>
+  </div>
+</div>
+<!-- Six Container (Grid) Pricing-->
+<div class="container-fluid bg-6 section" id="bg-6">
+  <div class="container">
+    <h1 align="center" class="sectionheading" >Pricing </h1>
+    <br>
+    <br>
+    <div class="row pricing" >
+      <div class="col-md-4" >
+        <div class="standard">
+          <h4 align="center"><strong>STANDARDM </strong></h4>
+          
+          <hr>
+          <p align="center" style="font-size: 72px; font-weight: 900; margin-top: 40px;"> <sup style="font-size: 50px; font-weight: 600; margin-left: 10px;"> $</sup> 20</p>
+          <hr>
+          
+          <p style="text-align: center; margin: 48px;line-height: 1.6;"> 30 GB Storage Unlimited Data Transfer 50 GB Bandwith</p>
+          <p align="center" style=" margin: 20px;">
+            <button id="button">Large Button</button>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4" >
+        <div class="most_popular">
+          <h4 align="center"><strong>MOST POPULAR </strong></h4>
+          <hr>
+          
+          <p align="center" style="font-size: 72px; font-weight: 900; margin-top: 40px;"> <sup style="font-size: 50px; font-weight: 600; margin-left: 10px;"> $</sup> 40</p>
+          <hr>
+          
+          <p style="text-align: center;margin: 48px;line-height: 1.6;"> 30 GB Storage Unlimited Data Transfer 50 GB Bandwith</p>
+          <p align="center" style=" margin: 20px;">
+            <button id="button">Large Button</button>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4" >
+        <div class="ultimate">
+          <h4 align="center"><strong>ULTIMATE </strong></h4>
+          <hr>
+         
+          <p align="center" style="font-size: 72px; font-weight: 900; margin-top: 40px;"> <sup style="font-size: 50px; font-weight: 600; margin-left: 10px;"> $</sup> 60</p>
+          <hr>
+          
+          <p style="text-align: center; margin: 48px;line-height: 1.6;"> 30 GB Storage Unlimited Data Transfer 50 GB Bandwith</p>
+          <p align="center" style=" margin: 20px;">
+            <button id="button">Large Button</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- row prising -->
+    
+    <div class="row">
+      <div class="col-md-12" align="center" style="margin-top: 25px;"> <a href="#"><img src="images/Apple_appstore.png"></a> <a href="#"> <img src="images/Google_appstore.png"></a> </div>
+    </div>
+  </div>
+</div>
+<!-- Seven Container (Grid) News-->
+<div class="container-fluid bg-7 section" id="bg-7">
+  <div class="container">
+    <h1 align="center" class="sectionheading" >News</h1>
+    <br>
+    <br>
+    <p align="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <br>
+    <br>
+    <div class="row" >
+      <div class="col-md-4 News">
+        <h3 align="center" style="background-color:#f4f4f4;padding: 20px;margin-top: 0px;margin-left: -15px;margin-right: -15px;">Jully 11, 2017</h3>
+        <div class="news_block1">
+          <p style="text-align: center; margin: 40px;line-height: 1.6;"> Match Learning Solution with Learning Life-Style</p>
+          <p style="text-align: center; margin: 40px;line-height: 1.6;"> By Poonam Tharad</p>
+          <p align="center" style=" ">
+            <button class="readmore">Read more</button>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 News" >
+        <h3 align="center" style="background-color:#f4f4f4;padding: 20px;margin-top: 0px;margin-left: -15px;margin-right: -15px;">Jully 11, 2017</h3>
+        <div class="news_block2">
+          <p style="text-align: center; margin: 40px;line-height: 1.6;"> Match Learning Solution with Learning Life-Style</p>
+          <p style="text-align: center; margin: 40px;line-height: 1.6;"> By Poonam Tharad</p>
+          <p align="center" style=" ;">
+            <button class="readmore">Read more</button>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 News" >
+        <h3 align="center" style="background-color:#f4f4f4;padding: 20px;margin-top: 0px;margin-left: -15px;margin-right: -15px;">Jully 11, 2017</h3>
+        <div class="news_block3">
+          <p style="text-align: center; margin: 40px;line-height: 1.6;"> Match Learning Solution with Learning Life-Style</p>
+          <p style="text-align: center; margin: 40px;line-height: 1.6;"> By Poonam Tharad</p>
+          <p align="center" style=" ">
+            <button class="readmore">Read more</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- row  --> 
+    
+  </div>
+</div>
+<!-- Eight Container (Grid) Contact Us -->
+<div class="container-fluid bg-8 section" id="bg-8">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 clientlogo">
+        <div class="carousel " data-flickity="{ 'autoPlay': 1500 }">
+          <div class="carousel-cell" style="background-image: url('images/airtel.png'); background-repeat: no-repeat; align-content: center; " ></div>
+          <div class="carousel-cell" style="background-image: url('images/escots.png'); background-repeat: no-repeat; align-content: center;" ></div>
+          <div class="carousel-cell" style="background-image: url('images/vistara.png'); background-repeat: no-repeat; align-content: center;" ></div>
+          <div class="carousel-cell" style="background-image: url('images/Kalptaru.png'); background-repeat: no-repeat; align-content: center;" ></div>
+        </div>
+      </div>
+    </div>
+    <hr style="display:block; color:black; height:1px; width:100%; ">
+    <div class="row" style="margin-top:100px;">
+      <div class="col-md-12" align="center">
+        <p> Try it now</p>
+        <h1>Get in touch</h1>
+        <br>
+        <p align="center" style="max-width:50%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <br>
+        <br>
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" id="usr" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="emial" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="pwd" placeholder="Password">
+          </div>
+        </form>
+        <p align="center" >
+          <button id="submitbtn"  class="hvr-sweep-to-right knowmore">Sign Up</button>
+        </p>
+      </div>
+    </div>
+  </div>
+  <hr style="display:block; color:black; height:1px; width:100%; ">
+  <div class="container " >
+    <div>
+      <p style="color: #000000; float:left">@Copyright MIAPP. 2017</p>
+    </div>
+    <div style="float: right;"> <img src="images/G+.png"> <img src="images/youtube.png" > <img src="images/linkedin.png" > </div>
+  </div>
+</div>
+
+</div> <!-- fullpage main div closed here -->
+
+<!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js --> 
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+<script src="https://threejs.org/examples/js/libs/stats.min.js"></script> 
+<script  src="js/index.js"></script> 
+<script>
+
+
+
+
+
+ function toggleIcon(e) {
+				$(e.target)
+					.prev('.panel-heading')
+					.find(".more-less")
+					.toggleClass('glyphicon-plus glyphicon-minus');
+			}
+			
+			$('.panel-group').on('hidden.bs.collapse', toggleIcon);
+			$('.panel-group').on('shown.bs.collapse', toggleIcon);
+			
+			
+			/*
+			$("nav").find("a").click(function(e) {
+					e.preventDefault();
+					var section = $(this).attr("href");
+					$("html, body").animate({
+						scrollTop: $(section).offset().top
+					});
+			});
+			*/
+			
+			var $carousel = $('.carousel').flickity({
+				
+			});
+			
+			$('.button-group').on( 'click', '.button', function() {
+			 var index = $(this).index();
+			$carousel.flickity( 'selectCell', index );
+});
+
+
+  </script> 
+  
+  
+<script src="js/qarticles.min.js"></script> 
+<script src="js/qarticles.js"></script> 
+<script src="js/animationeffect.js"></script> 
+<script>
+        (function (global) {
+            var speed = 40
+            if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+                speed = 200
+            }
+            var covColorFuc = function (dot, w, h) {
+                return `rgba(${Math.floor(255 * (1 - dot.x / w))}, ${Math.floor(255 * (1 - dot.y / h))},${Math.floor(255 * (dot.speedArr[0]/ 100))}, 0.8)`
+            }
+            var lineColorFuc = function (dot, w, h) {
+                return `rgba(${Math.floor(255 * (1 - dot.x / w))}, ${Math.floor(255 * (1 - dot.y / h))},${Math.floor(255 * (dot.speedArr[0]/ 100))}, 0.4)`
+            }
+            var covSpeedFuc = function (speed) {
+                return  speed * (Math.random() * 2 - 1)
+            }
+            var options = {
+                lineLink: {
+                    count: 0,
+                    show: false
+                },
+                color: {
+                    dotColorFuc: covColorFuc,
+                    lineColorFuc: lineColorFuc,
+                },
+                dot: {
+                    physical: true,
+                    speed: speed,
+                    vxFuc: covSpeedFuc,
+                    vyFuc: covSpeedFuc,
+                    count: 16,
+                    size: {
+                        random: true,
+                        max: 16,
+                        min: 2
+                    }
+                }
+
+            }
+			
+			
+			
+
+             var qarticles = new Qarticles(document.getElementById('cov'), options)
+			       var qarticles = new Qarticles(document.getElementById('cov2'), options)
+        })(window);
+    </script>
+</body>
+</html>
