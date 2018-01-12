@@ -220,8 +220,10 @@ p {
 	margin-top: 100px;
 }
 
-/* Large desktops and laptops */
+
 @media (min-width: 1200px) {
+	
+	/* large desktop css */
 }
 
 @media (min-width: 992px) {

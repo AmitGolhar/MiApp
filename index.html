@@ -432,11 +432,9 @@ $(document).ready(function() {
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
 <script src="https://threejs.org/examples/js/libs/stats.min.js"></script> 
 <script  src="js/index.js"></script> 
+
+
 <script>
-
-
-
-
 
  function toggleIcon(e) {
 				$(e.target)
@@ -466,6 +464,8 @@ $(document).ready(function() {
 			$('.button-group').on( 'click', '.button', function() {
 			 var index = $(this).index();
 			$carousel.flickity( 'selectCell', index );
+			
+			//flickity code end
 });
 
 
@@ -476,6 +476,7 @@ $(document).ready(function() {
 <script src="js/qarticles.js"></script> 
 <script src="js/animationeffect.js"></script> 
 <script>
+// script for particle
         (function (global) {
             var speed = 40
             if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
