@@ -24,8 +24,8 @@ html, body {
 	height: auto !important;
 	width: 100% !important;
 	position: absolute;
-	top: 180;
-	left: 0;
+	top: 0px;
+    left: 0px;
 }
 p {
 	font-size: 18px;
@@ -106,25 +106,27 @@ p {
 	width: 224px;
 	height: 220px;
 	display: inline-block;
-	margin: 25px;
+	margin: 70px 33px 30px 0px;
+	
 }
 .More_faster {
 	width: 224px;
 	height: 220px;
 	display: inline-block;
-	margin: 25px;
+	 margin: 70px 33px 30px 0px;
+	
 }
 .Flexible {
 	width: 224px;
 	height: 220px;
 	display: inline-block;
-	margin: 25px;
+   margin: 30px 33px 30px 0px;
 }
 .Different_style {
 	width: 224px;
 	height: 220px;
 	display: inline-block;
-	margin: 25px;
+	margin: 30px 33px 30px 0px;
 }
 .Featuresimg1 {
 	margin-top: 0px;
@@ -143,7 +145,20 @@ p {
 .sectionheading {
 	color: #414042;
 	font-size: 40px;
+	font-weight: 600;
+	margin-top: 0px;
+}
+.sectionheading + p{
+	margin-top:20px; 
+	margin-bottom:20px; 
+	text-align:left;
+}
+
+.section2_heading {
+	padding-top:10px; 
+	padding-bottom:10px; 
 	font-weight: 900;
+	
 }
 .imgshadow {
 	-webkit-box-shadow: 6px 4px 74px 2px rgba(184,184,184,0.39);
@@ -255,6 +270,7 @@ a[aria-expanded="true"] {
 	background: -webkit-linear-gradient(-45deg, rgb(32,162,203) 0%, rgb(32,162,203) 18%, rgb(33,155,202) 35%, rgb(45,102,192) 58%, rgb(57,46,181) 100%);
 	background: linear-gradient(135deg, rgb(32,162,203) 0%, rgb(32,162,203) 18%, rgb(33,155,202) 35%, rgb(45,102,192) 58%, rgb(57,46,181) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a2cb', endColorstr='#392eb5', GradientType=1 );
+color:#ffffff;
 }
 .panel-title > a {
 	display: block;
@@ -272,8 +288,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a2cb', end
 
 
 .demo {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	
+	
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
 	color: #ffffff;
@@ -285,6 +301,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a2cb', end
 }
 .tab-content p {
 	margin-top: 40px;
+    margin-left: 64px;
+    text-indent: -34px;
 }
 .nav-tabs>li>a {
 	color: #ffffff;
@@ -298,8 +316,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a2cb', end
 }
 .nav-tabs {
 	border: 1px solid #ddd;
-	margin-top: 150px;
 	width: 93.61%;
+}
+.tabshowcase{
+	
+padding: 140px 0px 10px 0px;	
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
 	background: rgb(32,162,203);
@@ -318,18 +339,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a2cb', end
 	border-radius: 0;
 }
 .container > p {
-	padding-left: 250px;
-	padding-right: 250px;
+   
+    max-width: 500px;
+    margin: auto;
 }
-.container-fluid > p {
-	padding-left: 250px;
-	padding-right: 250px;
+.fp-tableCell > p {
+	
+     max-width: 500px;
+    margin: auto;
 }
 .glyphicon-chevron-right {
 	padding-right: 30px;
 }
 i {
 	padding: 0px 5px 0px 5px;
+}
+
+.bg-4 .sectionheading {
+	color:#ffffff;
+	
 }
 .gallery {
 	background: #EEE;
@@ -388,7 +416,7 @@ i {
 	background-position: center;
 	max-height: auto;
 	max-width: 100%;
-	padding: 25px 0px 25px 0px;
+	padding: 30px 0px 30px 0px;
 }
 .flickity-prev-next-button svg {
 	display: none;
@@ -479,7 +507,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20a2cb', end
 .news_block1, .news_block2, .news_block3 {
 	padding: 50px 50px 50px 50px;
 }
-.carousel {
+.bg-6 .sectionheading {
+color:#ffffff;	
 }
 .carousel-cell {
 	width: 26%;

@@ -23,12 +23,16 @@
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 <link rel="stylesheet" href="fullPage.js-master/jquery.fullPage.css"/>
 
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/set2.css" />
 <script>
 
 $(document).ready(function() {
 	//$('#fullpage').fullpage();
 	
-	$('#fullpage').fullpage1({
+	$('#fullpage').fullpage({
 				anchors: ['Home', 'Features', 'How it works', 'App Screenss', 'Pricing', 'Clients', 'Contact'],
 				navigation: true,
 				scrollingSpeed: 1500,
@@ -112,7 +116,7 @@ $(document).ready(function() {
       </div>
       <div class="col-md-6 " >
         <h2 align="left" class="sectionheading">Features</h2>
-        <p style="margin-top:20px; margin-bottom:20px; text-align:left;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 		eiusmod tempor incididunt.</p>
+        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
         <div class="Features_right_section">
           <div class="Functional"> 
             
@@ -122,7 +126,7 @@ $(document).ready(function() {
               <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAA8CAMAAADSbFNfAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABXFBMVEUAAAD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQD/uQAAAABYeH44AAAAcnRSTlMAgPTxelTdsOBLmCEujKAQIJA4NNBaCRJR8AGdQ1CtVdUOtjL27SLi+0CmFkZBGaWn+rKs7sLS684adE5hYiecvBcxXoW/BNQwcP383GfZJWQqcv6o6C3pXSSLuhP3aTXHVnjRwLTv+LNPHFjL9fLNRApXs0WvAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAWRJREFUSMft1mk3AlEYB/BniqZQmqQ0FCXKMpOkQkih7EJkyVr2/fn+LwylGcxyXziHg/+bu/3OzL1n7rl3AIRQOqxFXwdKqUcDXYsRTUquARvFRhOalZwFm8WGFZk/4mwtZM5o/6GulXGIzsm0gXoqTjvf7Uwu+R3Ntne8c250yzoKPSSuE7u8Cs7nE1m3v6cXFJxdsrJAsA9IHPYDmbMQuAErmaPx332ZG+QqJe/mqz0cJ+dU8ptciMANIYSHCVwEYSRK4KJ6iAUIXHwUQujVZGPCYscxoekmcBKmMKnppoMpgJjOqcHSrwfVDM6qM3YO00KRyQbnVd1CdWa2RSOvwhJLy9VrcgVX1xRZLhxff6tvbLpyrKzi87i1LXl2AbM7jk9qd8+P+ylpT5E5QH3k8Ej8NkWOOkY0nHx8T+q09PI75IqVffRZuXQu1C8urzJyk7m+MXtuC3eCuC885KnHJ8nYM4fYY2vmOuIjAAAAAElFTkSuQmCC" width="39" height="60"/>
             </svg>
             </i>
-            <h4 style="padding-top:10px; padding-bottom:10px; font-weight: 900;">Functional</h4>
+            <h4 class="section2_heading" >Functional</h4>
             <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod.</p>
           </div>
           <div class="More_faster">
@@ -132,7 +136,7 @@ $(document).ready(function() {
               <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAA8CAMAAAAXHsnOAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB71BMVEUAAAB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJB+OJAAAACGcCDfAAAAo3RSTlMAIsALDNSrAa6ye35//k1Orw3W8igq8yTv2hAR3O4jR/22A7lEdYiLcqZYWqMJzfYxM/fLCB7p4RUX4+gcPfrBBcM6aJUghbfwcKA4doRhFhi79Qr4cxO6d1G8zM87XqJ60cY0Y4M/rKEn1YwEU5OeKfkGqg++0Gcl3lI16/E+9OQtXNjHFI61n+WcsNKlbL0byJBQDuLfnVTZ5jL8Ve0wuGsCDK7fdAAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAJTSURBVEjH3ZbpWxJRFIdPIiDYtFlULjENpma0SBKbkJZlahSB2b7QvtAiKm6YC+5pm+17nX80ZthGGGbOfO18ufd35n0fDgzP3AGQrnUlGlBTpVrU6VXw+jI0oFGFUI7r9QZmA5nfiJv0sHlLxVYiv82kLU0u23fsrCTxVdU1u4SNmd3NEXjOwtamt3uwjiDUY0N2vxcbFfl9aM2F/QcOHlLgm2yHm0XRfsThlOVdbk/LmobXd7RVhm9t8x3Lax3HdhnhBJ4s6HWckhU6C3pdJKH7tP/MWboQOIfIYLCTKoS0Ped7oelCyiYIF/ESH7jLQSdNuHI1la7hdZrguZFKlXiTJoRvpdJtvEMT7uI9Id33tdCEKkdNIweuB+in3oeHj9DkZpjHHFWAyJOnz8qfp3q0v4aoVAsGGYHrkhCq+4o+OqL9KCVgf1SaHxhEaQEHB6T4QIwdqpASmCE2Fijkh0dsoyAtwKhtZDi/PRYf90IxAV6Mx8fWds0Tk1NQXICpyQmzuDntS9hBTgB7wjed6zXgzCzICzA7k33m6udwPgRKAoTmcU449qJWXIiAsgCRBbQmb6HGghiOpYvFRX5ZSiNtfOjDzNUwokUDxpei6lgWFn9aWOHDsltMqDla/996VZJXr9/IC70efCvCHfhO6SNWsT4X3n/4GFIcaoXtzu7bsVaRTw6VyJzUXuYT5Xt/zgzV/OUr7XVGlx6qDldpP60zLgz17buOxgP84IeKxH66qIIwlFE44YiVHOpXz286zw8VNNnVCKDDP6p4cJb9lb7wD3vrug2la0ClAAAAAElFTkSuQmCC" width="48" height="60"/>
             </svg>
             </i>
-            <h4 style="padding-top:10px; padding-bottom:10px; font-weight: 900;">More faster</h4>
+            <h4 class="section2_heading">More faster</h4>
             <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod.</p>
           </div>
           <div class="Flexible"> <i>
@@ -140,7 +144,7 @@ $(document).ready(function() {
               <image xlink:href="data:img/png;base64,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" width="57" height="60"/>
             </svg>
             </i>
-            <h4 style="padding-top:10px; padding-bottom:10px; font-weight: 900;">Flexible 1</h4>
+            <h4 class="section2_heading">Flexible 1</h4>
             <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod.</p>
           </div>
           <div class="Different_style"> <i>
@@ -148,12 +152,12 @@ $(document).ready(function() {
               <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAA8CAMAAADBuxOrAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAnFBMVEUAAAD9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRP9uRMAAACl4v4QAAAAMnRSTlMARd/EHhHz9LKwu8JGc7RQYKAc/EAg2EG9wCwW9vIQtgYwgAUodQ/v9wuEwT/U4JrQj6nfbq8AAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAA0klEQVRIx+3WRw6DMBBAUROq6SUFUiC917n/4QIYIksZS+xQIv+dR28xIAtByHfKANrY4HNUNYTrhmnRJjZpTzY4iHfBI4J8QIYBhCIfSd+3j+2kvR1Dzo8AxhPMp5C112PK+Rn154sc8VCI9vHAxXwk8iEE0ksvvfS/4pdh3aqrz9mHeN3Vb4K6ba/P68JO5AvM7w9Hn9IT82fKdYEU8eR6K99JznwGXIkdY74J2afsj7x6r3p09sWz6tXz/r7II/8DZQ7YFM0yDR3xmgqCBgrC37UqS5pUv2mOAAAAAElFTkSuQmCC" width="47" height="60"/>
             </svg>
             </i>
-            <h4 style="padding-top:10px; padding-bottom:10px; font-weight: 900;">Different style</h4>
+            <h4 class="section2_heading">Different style</h4>
             <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod.</p>
           </div>
+          <br> 
           <br>
-          <br>
-          &nbsp; &nbsp;
+        
           <button type="button" class="btn btn-default hvr-sweep-to-right knowmore">Know more</button>
             
         </div>
@@ -167,7 +171,7 @@ $(document).ready(function() {
   <div class="container" >
     <h1 align="center" class="sectionheading" >Accordian Showcase</h1>
     <br>
-    <p align="center" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p align="center" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
     <br>
     <div class="row">
       <div class="col-sm-6">
@@ -208,7 +212,7 @@ $(document).ready(function() {
           
         </div>
       </div>
-      <div class="col-sm-6 animated bounceInRight" align="center"> <img  src="images/iphone.png" class="img-responsive margin" alt="Image"> </div>
+      <div class="col-sm-6" align="center"> <img  src="images/iphone.png" class="img-responsive margin" alt="Image"> </div>
     </div>
   </div>
 </div>
@@ -217,11 +221,11 @@ $(document).ready(function() {
   <div class="container" >
     <h1 align="center" class="sectionheading" >Tabbed Showcase </h1>
     <br>
-    <p align="center" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p align="center" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
     <br>
     <div class="row">
-      <div class="col-sm-6"> <img  src="images/iphone_2.png" class="img-responsive animated bounceInLeft " alt="Image"> </div>
-      <div class="col-md-6">
+      <div class="col-sm-6" align="center"> <img  src="images/iphone_2.png" class="img-responsive " alt="Image"> </div>
+      <div class="col-md-6 tabshowcase">
         <ul class="nav nav-tabs">
           <li class="active"><a data-toggle="tab" href="#home"><i class="fa fa-music"></i>Ratina Ready</a></li>
           <li><a data-toggle="tab" href="#menu1"><i class="fa fa-star" ></i>Support</a></li>
@@ -230,7 +234,7 @@ $(document).ready(function() {
         </ul>
         <div class="tab-content">
           <div id="home" class="tab-pane fade in active">
-            <p><span class=" glyphicon glyphicon-chevron-right"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+           <p><span class=" glyphicon glyphicon-chevron-right"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <p><span class=" glyphicon glyphicon-chevron-right"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
           </div>
           <div id="menu1" class="tab-pane fade">
